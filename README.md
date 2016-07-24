@@ -7,6 +7,24 @@ TODO
 ### Game Rules
 Bot will give an initial word, and player asked to create another word from those letters (with minimum length of word is 3)
 
+#### Rules
+- Initial Words has minimum length of 5
+- Word created from initial letters minimum length of 3
+- Game Duration : 1 minutes
+- Invalid word must be notified by Bot
+
+#### Bot Command
+Bot command is a sets of unique listener to respond when users send chat that started with `/`
+- /startgame
+Ask bot to start game (Gives a starting word, and start counting)
+
+## Development Tasks
+This sections will list all task that need to be developed for the bot. Please send an inquiry for claiming a tasks
+- Create initial bot (main.py)
+- bot command listener
+- word validator
+- Database layers (Firebase)
+
 ## Library
 This repository will use the following library (listed in requirement.txt)
 - [Python Telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
